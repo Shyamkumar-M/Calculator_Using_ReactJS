@@ -1,10 +1,13 @@
 .input-wrapper {
-    height: 10em;
+    height: 9em;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
     flex-direction: column;
     padding: 16px;
+    margin: 5px;
+    background-color: #c0d796;
+    border-radius: 25px;
 }
 
 .result {

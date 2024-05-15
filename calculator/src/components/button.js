@@ -1,8 +1,9 @@
 import "./button.css";
 
-const Button = ({symbol , color}) => {
+const Button = ({symbol , color , handleClick , fontColor}) => {
     return(
-        <div className = "button-wrapper" style = {{backgroundColor: color}} >{symbol}
+        <div onClick={() => handleClick(symbol)} 
+        className = "button-wrapper" style = {{backgroundColor: color , color: fontColor}} >{symbol}
         </div>
     )
 }

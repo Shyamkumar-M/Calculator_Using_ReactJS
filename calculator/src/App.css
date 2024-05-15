@@ -9,9 +9,10 @@ body {
 }
 
 .calc-wrapper {
-  background-color: #fff;
+  background-color: #5c5d69;
   width: 400px;
-  border-radius: 16px;
+  border-radius: 18px;
+  padding: 10px;
 }
 
 .rows {
