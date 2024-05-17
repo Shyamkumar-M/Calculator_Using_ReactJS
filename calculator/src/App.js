@@ -1,7 +1,6 @@
 // App.js
 import './App.css';
 import { useState } from "react";
-import { useState } from "react";
 import Button from "./components/button";
 import Input from './components/input';
 import * as math from "mathjs";
@@ -27,7 +26,7 @@ const App = () => {
     setText("");
     setResult("");
   };
-  };
+  
 
   return (
     <div className="App">
@@ -75,6 +74,6 @@ const App = () => {
       </div>
     </div>
   );
-}
+};
 
 export default App;
