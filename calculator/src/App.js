@@ -1,6 +1,7 @@
 // App.js
 import './App.css';
 import { useState } from "react";
+import { useState } from "react";
 import Button from "./components/button";
 import Input from './components/input';
 import * as math from "mathjs";
@@ -25,6 +26,7 @@ const App = () => {
   const resetInput = () => {
     setText("");
     setResult("");
+  };
   };
 
   return (
